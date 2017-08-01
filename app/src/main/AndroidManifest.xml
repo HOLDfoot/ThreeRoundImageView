@@ -20,14 +20,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:icon="@drawable/ic_launcher"
             android:name=".XfermodeActivity"
+            android:icon="@color/colorPrimaryDark"
             android:label="@string/title_activity_xfermode"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:icon="@color/colorAccent"
+            android:name=".RoundCoverActivity"
+            android:label="@string/title_activity_round_cover"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
         </activity>
     </application>
 

@@ -114,7 +114,7 @@ public class CircleImageView extends android.support.v7.widget.AppCompatImageVie
                 drawable.setBounds(0, 0, (int) (scale * width),
                         (int) (scale * height));
 
-                drawable.draw(drawCanvas);
+                drawable.draw(drawCanvas); // 很拗口，但很常见 相当于给canvas画一个drawable
                 if (mMaskBitmap == null || mMaskBitmap.isRecycled()) {
                     mMaskBitmap = getBitmap();
                 }
@@ -130,7 +130,7 @@ public class CircleImageView extends android.support.v7.widget.AppCompatImageVie
                 mWeakBitmap = new WeakReference<Bitmap>(bitmap);
 
                 //绘制图片
-                canvas.drawBitmap(bitmap, 0, 0, null);
+                //canvas.drawBitmap(bitmap, 0, 0, null);
 
                 if (type == TYPE_CIRCLE) {
                     saveBitmapTofile(bitmap, context.getExternalCacheDir() + "/round.jpg");

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="title_activity_xfermode">XfermodeActivity</string>
+    <string name="title_activity_round_cover">RoundCoverActivity</string>
 </resources>

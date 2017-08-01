@@ -13,11 +13,11 @@
         app:type="circle" />
 
     <com.example.secretlisa.myapplication.CircleImageView
-        android:layout_width="160dp"
-        android:layout_height="280dp"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
         android:layout_margin="10dp"
         android:src="@drawable/beauty_1080_1349"
-        app:Radius="30dp"
+        app:Radius="10dp"
         app:type="round" />
 
 </LinearLayout>
